@@ -1,7 +1,7 @@
 # dockerfiles
 Contains dockerfiles including
 
-# __Sametime no longer works due to support being withdrawn from fedora. Currently looking for alternate package
+# **Sametime no longer works due to support being withdrawn from fedora. Currently looking for alternate package**
 
 ## sametime
 fedora version of sametime, runnable from mac by starting socat for GUI, then building normally:
