@@ -1,7 +1,9 @@
-/sametime/OSX/logs
-/sametime/OSX/Sametime
-/sametime/OSX/TestDockerfile
-/sametime/OSX/OldDockerfile
-/sametime/OSX/Notes\ and\ things
-/sametime/OSX/ibmregtool.py
-/sametime/OSX/ifconfig
+/sametime/logs
+/sametime/Sametime
+/sametime/Notes\ and\ things
+/sametime/ibmregtool.py
+/sametime/ifconfig
+/sametime/TestDockerfile
+/sametime/OldDockerfile
+/notes/*
+.DS_Store
