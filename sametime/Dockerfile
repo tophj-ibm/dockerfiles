@@ -1,5 +1,5 @@
 # To Build:
-# docker build -t sametime -f Dockerfile . 
+# docker build -t sametime-test -f Dockerfile . 
 
 FROM fedora:23
 
@@ -14,7 +14,6 @@ RUN dnf install ibm-dnf-plugins -y \
 ADD waitForStart.sh /usr/local/bin/waitForStart.sh
 RUN chmod +x /usr/local/bin/waitForStart.sh
 
-#ENTRYPOINT ["bash"]
 ENTRYPOINT ["./usr/bin/sametime80"]
 
 
